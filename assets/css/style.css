@@ -11,8 +11,8 @@
 /* FOOTER */
  footer{
     height:90px;
-    background-color: black;
-    color:white;
+    background-color: #94AF9F;
+    color:#DBE4C6;
   }
 
   .container-footer p{
@@ -34,5 +34,5 @@
 
   .footer-list a{
     text-decoration: none;
-    color:white;
+    color:#DBE4C6;
   }
