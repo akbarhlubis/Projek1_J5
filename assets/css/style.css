@@ -7,6 +7,56 @@
     box-sizing: border-box;
 }
 
+/* Header */
+
+
+.container {
+  display: flex;
+  align-items: center;
+  background-color: #94af9f;
+  padding: 20px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.container ul li {
+  list-style: none;
+}
+.logo {
+  flex-grow: 1;
+  font-size: 30px;
+  letter-spacing: 7px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+.nav {
+  display: flex;
+  flex-grow: 3;
+  justify-content: space-between;
+}
+.nav li {
+  color: white;
+  font-size: 15px;
+  padding: 5px 10px;
+  transition: 0.3s;
+  letter-spacing: 3px;
+}
+.nav li:hover {
+  border: 3px solid #bbd6b8;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 18px;
+}
+.menu {
+  display: none;
+}
+.menu .line {
+  width: 50px;
+  margin: 5px 0;
+  height: 3px;
+  background-color: white;
+}
+
+
 /* main start */
 
 .hero-img-wrapper {
