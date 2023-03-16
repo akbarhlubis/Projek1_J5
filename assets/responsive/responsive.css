@@ -1,16 +1,33 @@
 /* Tablet */
-@media (max-width:1000px)
+@media (max-width:1300px)
 {
     header{
         width:100%;
     }
+    .header-list, .subscribe{
+        display: none;
+    }
+    .hero{
+        margin-bottom:150px;
+    }
+    .hero h1{
+        padding-top: 20px;
+        font-size: 40px;     
+    }
+
+    .search{
+        width:300px;
+        padding-top:50px;
+    }
     
+
     .poster{
         width:50%;
     }
+    
+/*Smartphone*/
 }
-
-@media (max-width:670px)
+@media (max-width:768px)
 {
     .poster{
         width:100%;
