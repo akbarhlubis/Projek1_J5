@@ -1,12 +1,10 @@
 /* Tablet */
-@media (max-width:1270px)
+@media (max-width:1000px)
 {
     header{
         width:100%;
     }
-    .header-list, .subscribe{
-        display: none;
-    }
+
     .hero{
         margin-bottom:150px;
     }
