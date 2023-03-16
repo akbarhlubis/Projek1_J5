@@ -105,8 +105,8 @@ article h3{
   padding:15px;
 }
 
-img{
-  height: 480px;
+.poster img{
+  height: 360px;
 }
 
 .poster{
