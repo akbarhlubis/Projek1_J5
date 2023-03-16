@@ -7,9 +7,12 @@
     box-sizing: border-box;
 }
 
+/* Memperbaiki gambar tidak lonjong */
+img{
+  object-fit: cover;
+}
+
 /* Header */
-
-
 header .container {
   display: flex;
   align-items: center;
