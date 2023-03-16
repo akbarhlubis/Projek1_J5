@@ -1,5 +1,5 @@
 /* Tablet */
-@media (max-width:1300px)
+@media (max-width:1200px)
 {
     header{
         width:100%;
@@ -16,7 +16,6 @@
     }
 
     .search{
-        width:300px;
         padding-top:50px;
     }
     
@@ -31,5 +30,31 @@
 {
     .poster{
         width:100%;
+    }
+    .hero h1{
+        padding-top: 20px;
+        font-size: 20px;     
+    }
+    .hero p{
+        font-size:15px;
+    }
+    .hero{
+        margin-bottom:200px;
+    }
+    .search{
+        width:80%;
+        padding-top:50px;
+    }
+    .search a{
+        font-size:12px;
+        padding:0 10px
+    }
+    form h2{
+        font-size:24px;
+    }
+    
+    .container-footer a{
+        font-size:12px;
+        padding-right:10px;
     }
 }
