@@ -10,7 +10,7 @@
 /* Header */
 
 
-.container {
+header .container {
   display: flex;
   align-items: center;
   background-color: #94af9f;
