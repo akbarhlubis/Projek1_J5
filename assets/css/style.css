@@ -102,27 +102,29 @@ article{
 }
 article h3{
   font-size: 30px;
+  padding:15px;
 }
-article img{
-  height: 240px;
-  width: 160px;
+
+img{
+  height: 480px;
 }
 
 .poster{
-  padding: 10px 25px;
-  width: 20%;
+  padding-top: 10px;
+  float:left;
+  width: 25%;
   display: block;
 }
 .poster:hover{
   box-shadow: 0 5px #94AF9F;
   top: 10px;
 }
-.poster{
-  float: left;
+
+.poster p{
+    padding-bottom:40px;
+    color:black;
 }
-.clear{
-  clear: left;
-}
+    
 /* Menggunakan font sans-serif */
 *{
   font-family: 'Poppins', sans-serif;
