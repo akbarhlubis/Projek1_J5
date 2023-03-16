@@ -1,5 +1,5 @@
 /* Tablet */
-@media (max-width:1200px)
+@media (max-width:1270px)
 {
     header{
         width:100%;
@@ -26,7 +26,7 @@
     
 /*Smartphone*/
 }
-@media (max-width:768px)
+@media (max-width:670px)
 {
     .poster{
         width:100%;
